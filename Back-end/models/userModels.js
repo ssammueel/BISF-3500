@@ -14,9 +14,20 @@ const userSchema = mongoose.Schema({
         trim:true,
         unique:true,
         lowercase:true,
+    },
+    password:{
+        type:String,
+        required:true
+    },
+    confirm:{
+        type:String,
+        required:true
     }
+    
 },{timestamps:true})
 
 const userModel = mongoose.model("users", userSchema)
 
 export default userModel;
+
+// in the validation make sure the the scripts cant be irted limit the input
