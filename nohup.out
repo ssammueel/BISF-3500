@@ -1,0 +1,79 @@
+[3717:3825:1022/140655.584171:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:684:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.16.0
+[3717:3717:1022/140721.055963:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[3717:3717:1022/141934.940234:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+[3717:3717:1022/143637.954431:ERROR:atom_cache.cc(229)] Add chromium/from-privileged to kAtomsToCache
+[34875:12:1022/150445.913478:ERROR:ffmpeg_common.cc(970)] Unsupported pixel format: -1
+Fontconfig error: Cannot load default config file: No such file: (null)
+[4241:4246:1022/150457.795120:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[4241:4246:1022/150501.183232:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[3717:3717:1022/162632.103492:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.152690:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.317678:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.327851:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.346866:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.376909:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[3717:3717:1022/162632.414844:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.423586:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.434230:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.445712:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.450664:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.455234:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.459745:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.464580:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.469931:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.474329:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.478759:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.483408:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.492828:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.502225:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.512745:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.546697:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.552127:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.556647:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.562762:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.600490:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.606534:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[3717:3717:1022/162632.646770:ERROR:zygote_communication_linux.cc(297)] Failed to send GetTerminationStatus message to zygote
+[1022/162632.826852:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[1022/162632.829752:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[1022/162632.849630:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1022/162632.849689:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+[3717:3717:1022/162632.747014:ERROR:browser_tabstrip.cc(105)] NOTREACHED hit. CloseWebContents called for tab not in our strip
+[3717:3717:1022/162633.037918:ERROR:gpu_process_host.cc(974)] GPU process launch failed: error_code=1002
+[3717:3717:1022/162633.184934:ERROR:gpu_process_host.cc(974)] GPU process launch failed: error_code=1002
+[3717:3717:1022/162633.190611:ERROR:gpu_process_host.cc(974)] GPU process launch failed: error_code=1002
+[3717:3717:1022/162633.198669:ERROR:gpu_process_host.cc(974)] GPU process launch failed: error_code=1002
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at errorOrDestroy (node:internal/streams/destroy:238:7)
+    at node:internal/fs/streams:272:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:684:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+
+Node.js v20.16.0
+[2946:2946:1023/123609.947450:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[2946:2946:1023/123841.049745:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
