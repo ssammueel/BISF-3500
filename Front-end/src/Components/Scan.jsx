@@ -3,14 +3,14 @@ import React from 'react'
 export const Scan = () => {
   return (
     <div>
-        <form action="">
+        <form action="" className=' bg-slate-300 flex flex-col p-3 gap-3'>
             Ip Address:
-v            <input className='' type='number' placeholder='enter ip address f' />
+           <input className='bg-white p-2 indent-3 outline-none rounded-btn' type='text ' placeholder='Enter ip address' />
             Start Port
-            <input className='' type='number' placeholder='enter ip address' />
+            <input className='bg-white p-2 indent-3 outline-none rounded-btn' type='text ' placeholder='Enter start port' />
             End Port
-            <input className='' type='number' placeholder='enter ip address' />
-            <button>Scan</button>
+            <input className='bg-white p-2 indent-3 outline-none rounded-btn' type='text ' placeholder='Enter End port' />
+            <button className=''>Scan</button>
         </form>
     </div>
   )

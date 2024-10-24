@@ -1,4 +1,5 @@
 import React from 'react'
+import { Scan } from './Scan'
 
 export const Home = () => {
   return (
@@ -28,51 +29,7 @@ export const Home = () => {
         </section>
 
         <section className='mt-[58px] py-[0%] px-[15%]'>
-        
-        <h1>dam</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam assumenda ex praesentium distinctio deserunt saepe reprehenderit obcaecati! Necessitatibus ad ipsa quo molestias recusandae eligendi itaque, assumenda mollitia cum minima impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat cum doloremque officia quidem cupiditate aperiam porro, accusamus et voluptatum laudantium magnam, dolore error aspernatur molestiae magni quas nulla doloribus!
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magni sunt laboriosam accusantium eum necessitatibus ad dignissimos, culpa iste adipisci amet doloremque non alias labore illum quasi! Fugiat, ratione similique!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, labore. Nulla velit et tenetur aut voluptate itaque consectetur, sed veniam corporis quis officia laborum aperiam est, sunt, doloremque similique vero!</p>
-        </p>
-        {/* <div>
-        <button className="btn">Button</button>
-            <button className="btn btn-neutral">Neutral</button>
-            <button className="btn btn-primary">Primary</button>
-            <button className="btn btn-secondary">Secondary</button>
-            <button className="btn btn-accent">Accent</button>
-            <button className="btn btn-ghost">Ghost</button>
-            <button className="btn btn-link">Link</button>
-        </div> */}
+          <Scan/>
         </section>
     </div>
   )
