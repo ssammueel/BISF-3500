@@ -10,7 +10,7 @@ export const Scan = () => {
             <input className='bg-white p-2 indent-3 outline-none rounded-btn' type='text ' placeholder='Enter start port' />
             End Port
             <input className='bg-white p-2 indent-3 outline-none rounded-btn' type='text ' placeholder='Enter End port' />
-            <button className=''>Scan</button>
+            <button className="btn btn-accent w-fit px-5">Accent</button>
         </form>
     </div>
   )
