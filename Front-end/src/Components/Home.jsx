@@ -28,7 +28,7 @@ export const Home = () => {
             </div>        
         </section>
 
-        <section className='mt-[58px] py-[0%] px-[15%]'>
+        <section className='mt-[58px] py-[0%] pr-[10%]'>
           <Scan/>
         </section>
     </div>

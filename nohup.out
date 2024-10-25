@@ -95,3 +95,53 @@ Emitted 'error' event on ReadStream instance at:
 }
 
 Node.js v20.16.0
+/usr/lib/python3/dist-packages/zenmapCore/I18N.py:76: DeprecationWarning: 'locale.getdefaultlocale' is deprecated and slated for removal in Python 3.15. Use setlocale(), getencoding() and getlocale() instead.
+  loc, enc = locale.getdefaultlocale()
+/usr/lib/python3/dist-packages/zenmapGUI/Icons.py:116: PyGTKDeprecationWarning: Gtk.IconSet(pixbuf) has been deprecated. Please use: Gtk.IconSet.new_from_pixbuf(pixbuf)
+  iconset = Gtk.IconSet(pixbuf=pixbuf)
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:1602: DeprecationWarning: Gtk.IconSet.new_from_pixbuf is deprecated
+  iconset = Gtk.IconSet.new_from_pixbuf(pixbuf)
+/usr/lib/python3/dist-packages/zenmapGUI/Icons.py:117: DeprecationWarning: Gtk.IconFactory.add is deprecated
+  iconfactory.add(key, iconset)
+/usr/lib/python3/dist-packages/zenmapGUI/Icons.py:119: DeprecationWarning: Gtk.IconFactory.add_default is deprecated
+  iconfactory.add_default()
+/usr/lib/python3/dist-packages/zenmapGUI/ScanToolbar.py:124: DeprecationWarning: Gtk.Container.set_focus_chain is deprecated
+  self.target_entry.set_focus_chain((self.target_entry.get_child(),))
+/usr/lib/python3/dist-packages/zenmapGUI/ScanOpenPortsPage.py:134: DeprecationWarning: Gtk.ScrolledWindow.add_with_viewport is deprecated
+  self.add_with_viewport(self.host)
+/usr/lib/python3/dist-packages/zenmapGUI/NmapOutputViewer.py:145: DeprecationWarning: Gdk.Color.to_string is deprecated
+  "foreground", Gdk.Color(*text_color).to_string())
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/labels.py:88: DeprecationWarning: Gtk.Misc.set_alignment is deprecated
+  self.set_alignment(0, 0.50)
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/expanders.py:76: DeprecationWarning: Gtk.Alignment.new is deprecated
+  self.__alignment = Gtk.Alignment.new(0, 0, 1, 1)
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/expanders.py:77: DeprecationWarning: Gtk.Alignment.set_padding is deprecated
+  self.__alignment.set_padding(12, 0, 24, 0)
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/boxes.py:149: DeprecationWarning: Gtk.Table.set_row_spacings is deprecated
+  self.set_row_spacings(spacing)
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/boxes.py:150: DeprecationWarning: Gtk.Table.set_col_spacings is deprecated
+  self.set_col_spacings(spacing)
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:1543: DeprecationWarning: Gtk.Table.attach is deprecated
+  Gtk.Table.attach(self, child, left_attach, right_attach, top_attach, bottom_attach, xoptions, yoptions, xpadding, ypadding)
+/usr/lib/python3/dist-packages/radialnet/bestwidgets/buttons.py:75: DeprecationWarning: Gtk.Image.set_from_stock is deprecated
+  self.__image.set_from_stock(stock, self.__size)
+/usr/lib/python3/dist-packages/zenmapGUI/MainWindow.py:164: DeprecationWarning: Gtk.ActionGroup.new is deprecated
+  self.main_action_group = Gtk.ActionGroup.new('MainActionGroup')
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:268: DeprecationWarning: Gtk.ActionGroup.add_action_with_accel is deprecated
+  self.add_action_with_accel(action, accelerator)
+/usr/lib/python3/dist-packages/zenmapGUI/MainWindow.py:362: DeprecationWarning: Gtk.ActionGroup.list_actions is deprecated
+  for action in self.main_action_group.list_actions():
+/usr/lib/python3/dist-packages/zenmapGUI/MainWindow.py:363: DeprecationWarning: Gtk.Action.set_accel_group is deprecated
+  action.set_accel_group(self.main_accel_group)
+/usr/lib/python3/dist-packages/zenmapGUI/MainWindow.py:364: DeprecationWarning: Gtk.Action.connect_accelerator is deprecated
+  action.connect_accelerator()
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:395: DeprecationWarning: Gtk.UIManager.insert_action_group is deprecated
+  return Gtk.UIManager.insert_action_group(self, buffer, length)
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:392: DeprecationWarning: Gtk.UIManager.add_ui_from_string is deprecated
+  return Gtk.UIManager.add_ui_from_string(self, buffer, length)
+/usr/lib/python3/dist-packages/zenmapGUI/MainWindow.py:437: DeprecationWarning: Gtk.UIManager.get_widget is deprecated
+  menubar = self.ui_manager.get_widget('/menubar')
+/usr/lib/python3/dist-packages/zenmapGUI/ScanHostDetailsPage.py:242: DeprecationWarning: Gtk.Table.set_col_spacing is deprecated
+  table.set_col_spacing(1, 50)
+/usr/lib/python3/dist-packages/gi/overrides/Gtk.py:566: PyGTKDeprecationWarning: The keyword(s) "parent" have been deprecated in favor of "transient_for" respectively. See: https://wiki.gnome.org/PyGObject/InitializerDeprecations
+  self._init(*args, **new_kwargs)
